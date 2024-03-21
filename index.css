@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafoli d'Arquitecte</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header, nav, section, footer {
+            border-radius: 15px; /* Esquinas redondeadas */
+        }
+
+        header {
+            background-color: #006464;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+	    border-radius: 15px 15px 15 15;
+	    margin-left: 20px;
+   	    margin-right: 20px;
+    	    margin-bottom: 0px;
+	    margin-top: 0px;
+        }
+
+      	nav {
+  	    background-color: #006464;
+     	    padding: 5px;
+  	    text-align: center;
+	    border-radius: 0px 0px 15px 15px;
+	    margin-left: 20px;
+   	    margin-right: 20px;
+	    margin-top: 0px;
+    	    margin-bottom: 35px;
+	}
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+  
+    /* Oculta la flecha del elemento summary y elimina el marcador de lista */
+    summary {
+      list-style: none;
+      -webkit-details-marker: none;
+      /* Para navegadores que no soportan -webkit-details-marker */
+      list-style-type: none;
+    }
+  
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portafoli d'arquitecte</h1>
+    </header>
+   
+    <section id="inici">
+    <details close>
+        <summary><h2>Inici</h2></summary>
+        <p>Breu resum biogràfic + motibacións/objectius.</p>
+      </details>
+    </section>
+
+    <section id="projectes">
+      <details close>
+    	<summary><h2>Projectes</h2></summary>
+    	  <div style="white-space: pre;">
+	Làmines dibuix 3d
+	Síntesi TAP IV
+	Aixecament la Gleva
+	Voluntariat a Alemanya
+    	  </div>
+      </details>
+    </section>
+
+
+    <section id="programes">
+      <details close>
+        <summary><h2>Programes</h2></summary>
+        <p> Microstation (nivell alt) · Photoshop (nivell alt) · Premiere (nivell alt) · Autocad i Rebit (Aprenent) · ITEC (Aprenent) · DIALux (Aprenent) </p>
+	<p> EXEMPLES EN CADASCÚN DELS CASSOS </p>
+      </details>
+    </section>
+
+    <section id="experiència laboral">
+      <details close>
+        <summary><h2>Experiència laboral</h2></summary>
+        <p>Traduir el CV</p>
+      </details>
+    </section>
+
+    <section id="contacte">
+      <details close>
+        <summary><h2>Contacte</h2></summary>
+        <ul>
+	<p> </p>
+            <li>Email: nicocamprubi@gmail.com</li>
+            <li>Telèfon: +34 629 05 44 77</li>
+            <!-- Otros métodos de contacto -->
+        </ul>
+      </details>
+    </section>
+ 
+</body>
+</html>
